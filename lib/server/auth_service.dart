@@ -7,7 +7,7 @@ import 'package:project1/model/registration_response.dart';
 import '../model/registration_request.dart';
 
 class AuthService{
- static String BASE = "api.kitabu.uz";
+ static String BASE = "books.uz";
  static String POST_API ='/api/v1/auth/registration';
  static Map<String, String> header = {
    "Accept-Language": "uz",
